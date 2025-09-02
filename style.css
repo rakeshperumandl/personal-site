@@ -1,0 +1,49 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 80px;
+}
+
+nav {
+    background: #333;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 2rem;
+}
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1 rem;
+    margin-top:2 rem ;
+}
