@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    padding: 80px;
+
 }
 
 nav {
@@ -29,13 +29,46 @@ nav a {
     text-decoration: none;
 }
 
+header h1 {
+    size: 2.5rem;
+    padding-top: 80px;
+    text-align:center;
+}
+
+header p{
+    color: #555;
+    text-align: center;
+
+}
+
 main {
     max-width: 800px;
     margin: 100px auto;
     padding: 2rem;
 }
 
+section h2{
+    justify-content: center;
+    margin: auto;
+
+}
+
+section p {
+    line-height: 1.8;
+}
+section, header {
+    box-shadow: o 4px 10px rgba(0,0,0,0.1) ;
+    transition: box-shadow o.3s ease;
+    padding: 1 rem;
+    border-radius: 10px;
+}
+
+section:hover, header:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
 img{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 50%;
     display: block;
     margin: 1rem auto;
@@ -46,4 +79,8 @@ footer{
     text-align: center;
     padding: 1 rem;
     margin-top:2 rem ;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    padding: auto;
 }
